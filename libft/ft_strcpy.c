@@ -1,27 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jmagnier <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/02/18 12:24:46 by jmagnier          #+#    #+#             */
-/*   Updated: 2017/02/18 14:31:28 by jmagnier         ###   ########.fr       */
+/*   Created: 2017/02/18 21:17:55 by jmagnier          #+#    #+#             */
+/*   Updated: 2017/02/18 22:21:20 by jmagnier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <libft.h>
 
-void *ft_memset(void *b, int c, size_t len)
-
+char *ft_strcpy(char *dst, const char *src)
 {
-	unsigned char *p_b;
 
-	p_b = b;
-
-	while (len--)
-	{
-		*p_b++ = c;
-	}
-	return (b);
 }
